@@ -26,8 +26,8 @@ const Contact = () => {
 
               <div className="space-y-6">
                 {[
-                  { icon: MapPin, title: "Our Office", lines: ["Dubai, United Arab Emirates", "Business Bay Area"] },
-                  { icon: Phone, title: "Phone", lines: ["+971 XX XXX XXXX"] },
+                  { icon: MapPin, title: "Our Office", lines: ["Kakinada, East Godavari District", "Andhra Pradesh, India"] },
+                  { icon: Phone, title: "Phone", lines: ["+91 XXXXX XXXXX"] },
                   { icon: Mail, title: "Email", lines: ["info@jpviplandscapes.com"] },
                   { icon: Clock, title: "Working Hours", lines: ["Monday – Saturday: 8:00 AM – 6:00 PM", "Sunday: By appointment only"] },
                 ].map((item, i) => (
@@ -59,8 +59,8 @@ const Contact = () => {
             {/* Map */}
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="rounded-2xl overflow-hidden shadow-luxury h-[400px] lg:h-auto">
               <iframe
-                title="JP VIP Landscapes Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.6828168076!2d54.89782219812429!3d25.07628045498749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1690000000000!5m2!1sen!2s"
+                title="JP VIP Landscapes Location - Kakinada"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122267.73874944164!2d82.18494565!3d16.9890648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a5385a9a3b2d%3A0x81b1d03f0e72e3a7!2sKakinada%2C%20Andhra%20Pradesh%2C%20India!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "400px" }}

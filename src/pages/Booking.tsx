@@ -57,11 +57,11 @@ const Booking = () => {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-1.5">Full Name *</label>
-                  <input name="name" value={form.name} onChange={handleChange} required className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition" placeholder="John Smith" />
+                  <input name="name" value={form.name} onChange={handleChange} required className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition" placeholder="Ravi Kumar" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-1.5">Phone Number *</label>
-                  <input name="phone" value={form.phone} onChange={handleChange} required type="tel" className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition" placeholder="+971 XX XXX XXXX" />
+                  <input name="phone" value={form.phone} onChange={handleChange} required type="tel" className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition" placeholder="+91 XXXXX XXXXX" />
                 </div>
               </div>
 
@@ -72,7 +72,7 @@ const Booking = () => {
 
               <div>
                 <label className="block text-sm font-medium text-foreground mb-1.5">Location</label>
-                <input name="location" value={form.location} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition" placeholder="Dubai, UAE" />
+                <input name="location" value={form.location} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition" placeholder="Kakinada, Andhra Pradesh" />
               </div>
 
               <div className="grid sm:grid-cols-2 gap-4">

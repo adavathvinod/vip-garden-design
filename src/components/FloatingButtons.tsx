@@ -22,7 +22,7 @@ const FloatingButtons = () => {
         <Instagram size={22} />
       </a>
       <a
-        href="tel:+971000000000"
+        href="tel:+91XXXXXXXXXX"
         className="p-3.5 rounded-full gradient-green text-primary-foreground shadow-luxury hover:scale-110 transition-transform"
         aria-label="Call us"
       >

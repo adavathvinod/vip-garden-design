@@ -17,7 +17,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
-              Where Nature Meets Luxury. Transforming outdoor spaces into breathtaking landscapes since inception.
+              Where Nature Meets Luxury. Proudly serving Kakinada and across Andhra Pradesh with breathtaking landscape transformations.
             </p>
           </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
             <div className="flex flex-col gap-3 text-sm text-primary-foreground/70">
               <div className="flex items-center gap-2">
                 <Phone size={16} className="text-gold" />
-                <span>+971 XX XXX XXXX</span>
+                <span>+91 XXXXX XXXXX</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-gold" />
@@ -67,7 +67,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin size={16} className="text-gold" />
-                <span>Dubai, UAE</span>
+                <span>Kakinada, Andhra Pradesh, India</span>
               </div>
             </div>
             <div className="flex gap-3 mt-4">
