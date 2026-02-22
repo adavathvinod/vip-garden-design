@@ -34,9 +34,9 @@ const projects = [
 ];
 
 const testimonials = [
-  { name: "Sarah Al-Maktoum", role: "Villa Owner, Dubai", text: "JP VIP transformed our entire outdoor space into a private paradise. The attention to detail is truly remarkable.", rating: 5 },
-  { name: "James Henderson", role: "Resort Manager", text: "Professional, creative, and always on time. Our resort grounds have never looked more beautiful.", rating: 5 },
-  { name: "Fatima Al-Rashid", role: "Homeowner, Abu Dhabi", text: "From design to execution, every step was handled with precision and care. Highly recommended!", rating: 5 },
+  { name: "Rajesh Kumar", role: "Villa Owner, Kakinada", text: "JP VIP transformed our entire outdoor space into a private paradise. The attention to detail is truly remarkable.", rating: 5 },
+  { name: "Priya Reddy", role: "Resort Manager, East Godavari", text: "Professional, creative, and always on time. Our resort grounds have never looked more beautiful.", rating: 5 },
+  { name: "Suresh Naidu", role: "Homeowner, Kakinada", text: "From design to execution, every step was handled with precision and care. Highly recommended!", rating: 5 },
 ];
 
 const Index = () => {
@@ -121,7 +121,7 @@ const Index = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <SectionHeading label="About Us" title="Crafting Outdoor Masterpieces" center={false} subtitle="With years of expertise in premium landscaping, JP VIP Landscapes transforms ordinary outdoor spaces into extraordinary living environments that reflect luxury, sophistication, and harmony with nature." />
+              <SectionHeading label="About Us" title="Crafting Outdoor Masterpieces" center={false} subtitle="Based in Kakinada, Andhra Pradesh, JP VIP Landscapes transforms ordinary outdoor spaces into extraordinary living environments that reflect luxury, sophistication, and harmony with India's rich natural heritage." />
               <div className="grid grid-cols-3 gap-4 mt-8">
                 {[
                   { icon: Award, num: "500+", label: "Projects" },
@@ -144,9 +144,9 @@ const Index = () => {
               className="relative"
             >
               <img src={residentialImg} alt="Premium garden design" className="rounded-2xl shadow-luxury w-full object-cover aspect-[4/3]" loading="lazy" />
-              <div className="absolute -bottom-6 -left-6 glass p-4 rounded-xl shadow-luxury max-w-[200px]">
+              <div className="absolute -bottom-6 -left-6 glass p-4 rounded-xl shadow-luxury max-w-[220px]">
                 <p className="font-serif text-lg font-bold text-foreground">Trusted by 350+</p>
-                <p className="text-sm text-muted-foreground">Luxury homeowners</p>
+                <p className="text-sm text-muted-foreground">Homeowners across Andhra Pradesh</p>
               </div>
             </motion.div>
           </div>

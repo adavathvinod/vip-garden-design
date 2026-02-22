@@ -27,9 +27,9 @@ const About = () => {
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
               <SectionHeading label="Our Journey" title="Crafting Landscapes Since Day One" center={false} />
               <div className="space-y-4 text-muted-foreground leading-relaxed">
-                <p>JP VIP Landscapes was founded with a singular vision: to elevate outdoor living to an art form. What began as a passion for horticulture and design has evolved into one of the region's most sought-after premium landscaping firms.</p>
-                <p>Our journey has been marked by an unwavering commitment to quality, innovation, and client satisfaction. Every garden we create tells a unique story — one of beauty, functionality, and harmony with the natural environment.</p>
-                <p>Today, we serve an elite clientele of villa owners, resorts, commercial establishments, and discerning homeowners who demand nothing but the best for their outdoor spaces.</p>
+                <p>JP VIP Landscapes was founded in Kakinada, Andhra Pradesh, with a singular vision: to elevate outdoor living to an art form. What began as a passion for horticulture and design has evolved into one of the region's most sought-after premium landscaping firms, serving clients across East Godavari and the wider Andhra Pradesh region.</p>
+                <p>Our journey has been marked by an unwavering commitment to quality, innovation, and client satisfaction. Every garden we create tells a unique story — one of beauty, functionality, and harmony with India's rich natural heritage.</p>
+                <p>Today, we serve an elite clientele of villa owners, resorts, commercial establishments, farmhouses, and discerning homeowners across Kakinada, Rajahmundry, Visakhapatnam, and beyond who demand nothing but the best for their outdoor spaces.</p>
               </div>
             </motion.div>
             <motion.img initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} src={residentialImg} alt="Our story" className="rounded-2xl shadow-luxury w-full object-cover aspect-[4/3]" loading="lazy" />
